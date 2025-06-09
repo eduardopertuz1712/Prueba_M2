@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal portfolio</title>
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="shortcut icon" href="/imagenes/project.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1 class="title">Eduardo Pertuz - Riwi Developer</h1>
+
+    <!--This is a menu to direct you to the information-->
+    <header class="navigation-bar">
+        <nav>
+            <a class="content" href="#about-me">About Me</a>
+            <a class="content" href="#Project">Project</a>
+            <a class="content" href="contact.html">Contacto</a><img class="phone" src="/imagenes/telefono.gif" alt="phone">
+        </nav>
+    </header>
+    <!--The ID allows you to identify the place you need. In this case, it helps the menu to point you here.-->
+    <div class="box"> 
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hello, I am Eduardo Pertuz</p>
+            <p>I really like programming because I've always liked creating and damaging things to learn what their limits are, I really like risky things, and I like soccer.</p>
+            <p>More details about you </p>
+            <img id="photo" src="./imagenes/yo.jpg" alt="Eduardo Pertuz photo">
+        </section>
+    </div>
+    <div class="box1">
+        <section>
+            <p>HTML</p>
+            <div class="progressBarContainer">
+                <div class="progressBar html">10%</div>
+            </div>
+        </section>
+        <section>
+            <p>CSS</p>
+            <div class="progressBarContainer">
+                <div class="progressBar css">5%</div>
+            </div>
+        </section>
+        <section>
+            <p>Python</p>
+            <div class="progressBarContainer">
+                <div class="progressBar Python">30%</div>
+            </div>
+        </section>
+    </div>
+
+    <div class="box">
+        <section id="Project">
+            <h2>project</h2>
+            <h3>project 1: portfolio website</h3>
+            <p>This is my first project where I built a swimwear page using only HTML, CSS and javascript and help from chatgp since I had no knowledge of many things.</p>
+        </section>
+        <img id="img" src="./imagenes/my project.png" alt="project portfolio image">
+    </div>
+    
+    <!--the table is used to define a table-->
+    <div class="box2">
+        <table class="block">
+            <tr> <!--the tr to define a row within a table-->
+                <th>project Name</th>
+                <th>technologies used</th>
+                <th>link</th>
+            </tr>
+            <tr>
+                <td>Mar&Seda</td>
+                <td>HTML, CSS, JAVASCRIPY and CHATGP</td>
+                <td><a class="content1" href="./projects/Mar&Seda/inicio.html" target="_blank">view project</a></td>
+            </tr>
+        </table>
+        <a class="content1" href="https://github.com/eduardopertuz1712" target="_blank">github</a><img class="phone1" src="/imagenes/github.png" alt="phone">
+    </div>
+    <footer>
+        <p>&copy; 2025 All rights reserved.</p> <!-- Consistent copyright -->
+    </footer>
+</body>
+</html>

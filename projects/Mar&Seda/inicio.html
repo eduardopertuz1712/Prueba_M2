@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mar&Seda</title>
+    <link rel="icon" href="marca.png" type="marca/png">
+    <link rel="stylesheet" href="pago.html">
+    <link rel="stylesheet" href="inicio.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <div class="main">
+        <header class="site-header">
+            <div class="header-brand">
+                 <h1 class="site-title">Mar&Seda</h1>
+            </div>
+
+            <nav class="main-nav"> 
+                <ul>
+                    
+                    <li class="dropdown">
+                        <a href="#">Eventos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#mensaje1">Eventos 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Contactos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="https://www.instagram.com/marydesa2710" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/share/16PPo6quca/" target="_blank">Facebook</a></li>
+                            <li><a href="https://www.tiktok.com/@marseda78" target="_blank">TikTok</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="container-icon">
+                <div class="container-cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                         stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375 0 11-.75 0 .375 0 01.75 0z"/>
+                    </svg>
+                    <div class="count-products">
+                        <span id="contador-productos">0</span>
+                    </div>
+                </div>
+                <div class="container-cart-products hidden-cart">
+                    <div class="row-product hidden"></div> 
+                    <div class="cart-total hidden"> 
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$0</span>
+                        <li><a href="pago.html">ir a pagar</a></li>
+                    </div>
+                    <p class="cart-empty">El carrito está vacío</p>
+                </div>
+            </div>
+        </header>
+      
+        <div class="slider">
+            <div class="slide active"><img src="img/IMG-20250410-WA0044.jpg" alt="Imagen de slider 1"/></div>
+            <div class="slide"><img src="img/IMG-20250410-WA0045.jpg" alt="Imagen de slider 2"/></div>
+            <div class="slide"><img src="img/IMG-20250410-WA0043.jpg" alt="Imagen de slider 3"/></div>
+            <div class="slide"><img src="img/IMG-20250410-WA0042.jpg" alt="Imagen de slider 3"/></div>
+
+            <button class="slide-btn prev" onclick="prevSlide()">‹</button>
+            <button class="slide-btn next" onclick="nextSlide()">›</button>
+        </div>
+
+         <div id="mensaje1" class="mensaje">
+            <p>¡Muy pronto inauguración de nuestra sede!</p>
+            <a href="#" class="cerrar">Cerrar</a>
+        </div>
+
+        <section id="tienda">
+            <header class="section-header"> 
+                <h1>Tienda</h1>
+            </header>
+
+            <div class="container-items">
+                <div class="item">
+                    <figure><img src="img/imagen1.jpg" alt="vestido de baño"/></figure>
+                    <div class="info-product">
+                        <h2>vestido de baño azul con negro</h2>
+                        <p class="price">$30.000</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure><img src=" img/imagen2.jpg" alt="vestido de baño"/></figure>
+                    <div class="info-product">
+                        <h2>vestido de baño negro</h2>
+                        <p class="price">$30.000</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure><img src="img/imagen3.jpg" alt="vestido de baño"/></figure>
+                    <div class="info-product">
+                        <h2>vestido de baño rosa</h2>
+                        <p class="price">$30.000</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure><img src="" alt="vestido de baño"/></figure>
+                    <div class="info-product">
+                        <h2>vestido de baño azuls</h2>
+                        <p class="price">$30.000</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                 <div class="item">
+                    <figure><img src="img/IMG-20250410-WA0040.jpg" alt="vestido de baño"/></figure>
+                    <div class="info-product">
+                        <h2>vestido de baño rosa</h2>
+                        <p class="price">$30.000</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure><img src="img/IMG-20250410-WA0038.jpg" alt="vestido de baño"/></figure>
+                    <div class="info-product">
+                        <h2>vestido de baño azul</h2>
+                        <p class="price">$30.000</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="compras.js"></script>
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slider .slide'); 
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+                slide.style.display = 'none'; 
+            });
+            if (slides[index]) { 
+                slides[index].classList.add('active');
+                slides[index].style.display = 'block'; 
+            }
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            showSlide(currentSlide);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            if (totalSlides > 0) {
+                 showSlide(currentSlide);
+            }
+        });
+
+    </script>
+    <script>
+        const iconCart = document.querySelector('.icon-cart');
+        const containerCartProducts = document.querySelector('.container-cart-products');
+
+        iconCart.addEventListener('click', () => {
+            containerCartProducts.classList.toggle('hidden-cart');
+        });
+
+    </script>
+</body>
+</html>

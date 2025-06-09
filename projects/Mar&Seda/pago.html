@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Métodos de Pago - Mar&Seda</title>
+    <link rel="stylesheet" href="pago.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <div class="main">
+        <header class="site-header">
+            <div class="header-brand">
+                 <img src="marca.png" alt="Logo Mar&Seda" class="site-logo">
+                 <h1 class="site-title">Mar&Seda</h1>
+            </div>
+
+            <nav class="main-nav"> 
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="payment-methods">
+            <header class="section-header"> 
+                <h1>Métodos de Pago</h1>
+                <p>Selecciona tu método de pago preferido</p>
+            </header>
+
+            <div class="methods-container">
+                <div class="method" data-method="nequi">
+                    <img src="img/NEQUI.jpg" alt="Nequi">
+                    <h3>Nequi</h3>
+                </div>
+                <div class="method" data-method="bancolombia">
+                    <img src="img/bancolombia.jpg" alt="Bancolombia">
+                    <h3>Bancolombia</h3>
+                </div>
+                <div class="method" data-method="daviplata">
+                    <img src="img/DaviPlata.png" alt="Daviplata">
+                    <h3>Daviplata</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal para información de pago -->
+        <div class="payment-modal" id="paymentModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 id="modalTitle">Información para pagar con <span id="methodName"></span></h2>
+                
+                <!-- Contenedores QR individuales (inicialmente ocultos) -->
+                <div class="qr-container" id="nequi-qr">
+                    <img src="img/nequiqr.png" alt="Código QR Nequi">
+                </div>
+                
+                <div class="qr-container" id="bancolombia-qr" style="display:none">
+                    <img src="img/bancolombiaqr.png" alt="Código QR Bancolombia">
+                </div>
+                
+                <div class="qr-container" id="daviplata-qr" style="display:none">
+                    <img src="img/daviplataqr.png" alt="Código QR Daviplata">
+                </div>
+
+                <!-- Información de pago -->
+                <div class="payment-info" id="nequi-info">
+                    <p><strong>Número de Nequi:</strong> 310 123 4567</p>
+                    <p><strong>Nombre:</strong> Mar&Seda</p>
+                    <p><strong>Pasos:</strong></p>
+                    <ol>
+                        <li>Abre la aplicación Nequi</li>
+                        <li>Selecciona "Enviar plata"</li>
+                        <li>Ingresa el número 310 123 4567</li>
+                        <li>Confirma el nombre "Mar&Seda"</li>
+                        <li>Ingresa el monto a pagar</li>
+                        <li>Envía el pago</li>
+                    </ol>
+                    <p>Envía el comprobante a nuestro WhatsApp: 310 123 4567</p>
+                </div>
+                
+                <div class="payment-info" id="bancolombia-info" style="display:none">
+                    <p><strong>Tipo de cuenta:</strong> Ahorros</p>
+                    <p><strong>Número de cuenta:</strong> 123 456 789 00</p>
+                    <p><strong>Nombre:</strong> Mar&Seda</p>
+                    <p><strong>Pasos:</strong></p>
+                    <ol>
+                        <li>Ingresa a tu app Bancolombia</li>
+                        <li>Selecciona "Transferencias"</li>
+                        <li>Ingresa el número de cuenta 123 456 789 00</li>
+                        <li>Confirma el nombre "Mar&Seda"</li>
+                        <li>Ingresa el monto a pagar</li>
+                        <li>Realiza la transferencia</li>
+                    </ol>
+                    <p>Envía el comprobante a nuestro WhatsApp: 310 123 4567</p>
+                </div>
+                
+                <div class="payment-info" id="daviplata-info" style="display:none">
+                    <p><strong>Número de Daviplata:</strong> 310 123 4567</p>
+                    <p><strong>Nombre:</strong> Mar&Seda</p>
+                    <p><strong>Pasos:</strong></p>
+                    <ol>
+                        <li>Abre la aplicación Daviplata</li>
+                        <li>Selecciona "Enviar dinero"</li>
+                        <li>Ingresa el número 310 123 4567</li>
+                        <li>Confirma el nombre "Mar&Seda"</li>
+                        <li>Ingresa el monto a pagar</li>
+                        <li>Envía el pago</li>
+                    </ol>
+                    <p>Envía el comprobante a nuestro WhatsApp: 310 123 4567</p>
+                </div>
+                
+                <div class="payment-info" id="efecty-info" style="display:none">
+                    <p><strong>Código de recaudo:</strong> 1234567890</p>
+                    <p><strong>Nombre:</strong> Mar&Seda</p>
+                    <p><strong>Pasos:</strong></p>
+                    <ol>
+                        <li>Acércate a un punto Efecty</li>
+                        <li>Indica que deseas hacer un pago de recaudo</li>
+                        <li>Proporciona el código 1234567890</li>
+                        <li>Confirma el nombre "Mar&Seda"</li>
+                        <li>Realiza el pago en efectivo</li>
+                        <li>Guarda el comprobante</li>
+                    </ol>
+                    <p>Envía el comprobante a nuestro WhatsApp: 310 123 4567</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="pago.js"></script>
+</body>
+</html>

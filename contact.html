@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Electronics Store</title> <!-- Improved title -->
+    <link rel="stylesheet" href="/css/style.css"> <!-- Fixed path -->
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="back-button">← Back to Home</a> <!-- Better back button -->
+        </nav>
+    </header>
+
+    <h1 class="title">Contact Us</h1> <!-- Added heading -->
+    <main class="contact-page">
+        
+        <div class="contact-form">
+            <form action="/submit-contact" method="POST"> <!-- Added method and action -->
+                <div class="form-group">
+                    <label for="fullname">Full Name</label> <!-- Proper label -->
+                    <input type="text" id="fullname" name="fullname" required> <!-- Added ID and name -->
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required> <!-- Changed to tel type -->
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date">Date of Inquiry</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password (for account creation)</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea> <!-- Added attributes -->
+                </div>
+                
+                <button type="submit" class="submit-button">Send Message</button> <!-- Improved button -->
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 All rights reserved.</p> <!-- Consistent copyright -->
+    </footer>
+</body>
+</html>
