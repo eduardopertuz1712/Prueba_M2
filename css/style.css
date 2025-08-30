@@ -1,0 +1,122 @@
+/* Global styles for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+    min-height: 100vh;
+    position: relative; /* Needed for footer positioning */
+    padding-bottom: 40px; /* Prevents footer from overlapping content */
+}
+
+.back-button{
+    display: flexbox;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #003cff;
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 2vh;
+}
+
+.title{
+    text-align: center;
+}
+
+/* Styles for the main content area */
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+/* FOOTER STYLES */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #333;
+    height: 40px;
+    position: fixed; /* Changed from absolute to fixed */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contact form container */
+.div-form {
+    min-height: calc(100vh - 120px); /* Accounts for header/footer */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(202, 202, 202, 0.548);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 4px 6px rgba(209, 71, 71, 0.1);
+    background:radial-gradient(transparent, rgba(255, 249, 249, 0.667));
+}
+
+input{
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: radial-gradient(transparent, rgb(219, 219, 219));
+    border-radius: 8px;
+}
+
+/* Form group styles */
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical; /* Allows vertical resizing only */
+    min-height: 100px;
+}
+
+/* Submit button styles */
+.submit-button {
+    background-color: #003cff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0028a8;
+}
