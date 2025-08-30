@@ -1,111 +1,58 @@
-+++­Mi Portafolio Web
-📋 Descripción
-Breve descripción de tu portafolio web. Explica qué tipo de proyectos muestras y cuál es el objetivo principal del sitio.
-🚀 Demo
-    • Repositorio: https://github.com/eduardopertuz1712/Prueba_M2.git
-✨ Características
-    • Diseño responsivo y moderno
-    • Navegación intuitiva
-    • Galería de proyectos interactiva
-    • Formulario de contacto funcional
-    • Optimizado para SEO
-    • Carga rápida y rendimiento optimizado
-🛠️ Tecnologías Utilizadas
-Frontend
-    • HTML5
-    • CSS
+# 🌐 Personal Portfolio - Eduardo Pertuz
 
-Herramientas y Librerías
-    • [Listado de librerías específicas]
-    • Git & GitHub
-    • [Herramientas de build: Webpack, Vite, etc.]
-📁 Estructura del Proyecto
-.
-├── contact.html
-├── css
-│   ├── portfolio.css
-│   └── style.css
-├── imagenes
-│   ├── github.png
-│   ├── my project.png
-│   ├── project.jpg
-│   ├── telefono.gif
-│   └── yo.jpg
-├── index.html
-└── projects
-    └── Mar&Seda
-        ├── compras.js
-        ├── img
-        │   ├── bancolombia.jpg
-        │   ├── DaviPlata.png
-        │   ├── Efecty.png
-        │   ├── imagen1.jpg
-        │   ├── imagen2.jpg
-        │   ├── imagen3.jpg
-        │   ├── IMG-20250410-WA0019.jpg
-        │   ├── IMG-20250410-WA0021.jpg
-        │   ├── IMG-20250410-WA0022.jpg
-        │   ├── IMG-20250410-WA0023.jpg
-        │   ├── IMG-20250410-WA0024.jpg
-        │   ├── IMG-20250410-WA0025.jpg
-        │   ├── IMG-20250410-WA0026.jpg
-        │   ├── IMG-20250410-WA0028.jpg
-        │   ├── IMG-20250410-WA0030.jpg
-        │   ├── IMG-20250410-WA0032.jpg
-        │   ├── IMG-20250410-WA0033.jpg
-        │   ├── IMG-20250410-WA0034.jpg
-        │   ├── IMG-20250410-WA0035.jpg
-        │   ├── IMG-20250410-WA0036.jpg
-        │   ├── IMG-20250410-WA0037.jpg
-        │   ├── IMG-20250410-WA0038.jpg
-        │   ├── IMG-20250410-WA0040.jpg
-        │   ├── IMG-20250410-WA0041.jpg
-        │   ├── IMG-20250410-WA0042.jpg
-        │   ├── IMG-20250410-WA0043.jpg
-        │   ├── IMG-20250410-WA0044.jpg
-        │   ├── IMG-20250410-WA0045.jpg
-        │   ├── NEQUI.jpg
-        │   └── nequiqr.png
-        ├── inicio.css
-        ├── inicio.html
-        ├── pago.css
-        ├── pago.html
-        ├── pago.js
-        └── tex
+This is my personal portfolio website built with **HTML, CSS, and JavaScript**.
+The goal of this project is to showcase my skills, experience, and projects in a professional, responsive, and visually appealing way.
 
-🎯 Secciones del Portafolio
-    1. Hero/Inicio - Presentación personal y llamada a la acción
-    2. Sobre Mí - Información personal y profesional
-    3. Habilidades - Competencias técnicas y herramientas
-    4. Proyectos - Galería de trabajos realizados
-    5. Contacto - Formulario y redes sociales
-🚀 Instalación y Uso
-Prerrequisitos
+## 📸 Preview
 
-Instalación
-# Clonar el repositorio
-git clone https://github.com/eduardopertuz1712/Prueba_M2/blob/main/README.md
+Includes:
 
-# Navegar al directorio
-cd tu-portfolio
+* **Hero Section** with introduction and profile image.
+* **About Me Section** with skills and animated progress bars.
+* **Projects Section** with project cards, technologies used, and links.
+* **Contact Form** with validation and alerts.
+* **Sticky Footer** with navigation and copyright.
 
-# Instalar dependencias
-npm install
+## 🛠️ Technologies Used
 
-# Ejecutar en modo desarrollo
-npm start
+* **HTML5**
+* **CSS3**
+* **JavaScript (ES6+)** 
+* **Font Awesome**
 
-# Construir para producción
-npm run build
-🌟 Proyectos Destacados
-Proyecto 1
-    • Descripción: Breve descripción del proyecto
-    • Tecnologías: Lista de tecnologías utilizadas
-    • Enlaces: Demo | Código
-Proyecto 2
-    • Descripción: Breve descripción del proyecto
-    • Tecnologías: Lista de tecnologías utilizadas
-    • Enlaces: Demo | Código
-📞 Contacto
-    • Email: tu.email@ejemplo.com
-    • GitHub: [Tu perfil de GitHub]
+## ⚙️ Features
+
+* ✅ **Responsive design** 
+* ✅ **Hamburger menu**
+* ✅ **Smooth scrolling** 
+* ✅ **Contact form** 
+* ✅ **Animated skill bars**
+
+## 📂 Project Structure
+
+```
+📁 portfolio-project
+│── 📄 index.html        # Main page
+│── 📄 style.css         # Global styles and components
+│── 📄 script.js         # Interactive functionalities
+│── 📁 images            # Profile and project images
+│── 📁 css               # Linked external files
+│── 📁 js                # Linked external files
+```
+
+## 🚀 How to Use
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/eduardopertuz1712/portfolio.git
+   ```
+2. Open the `index.html` file in your browser.
+3. (Optional) Customize images and personal details in the code.
+
+## 📬 Contact
+
+* **Email:** [pertuzvillegaseduardoisaac@gmail.com](mailto:pertuzvillegaseduardoisaac@gmail.com)
+* **Phone:** +57 304 647 8675
+* **Location:** Barranquilla, Colombia
+* **GitHub:** [eduardopertuz1712](https://github.com/eduardopertuz1712)
